@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: apl-report-app
+
+  profiles:
+    include:
+      common, apl-report-app
+
+  main:
+    allow-bean-definition-overriding: true
+
