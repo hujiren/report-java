@@ -5,7 +5,7 @@
   git add .
 
 ## 连接git库
-   git remote add origin https://github.com/arranapl/apl-lms-price-exp-manage-java.git
+   git remote add origin https://github.com/arranapl/apl-report-java.git
 
 
 提交描述

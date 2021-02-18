@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 
+import java.util.LinkedHashMap;
+import java.util.Set;
+
 @MapperScan(value={"org.jeecg.modules.**.mapper*"})
 @SpringBootApplication(scanBasePackages = {
         "org.jeecg.modules.jmreport",
@@ -29,7 +32,6 @@ public class JimuReportDemoApplication {
                 "Application JimuReport Demo is running! Access URL:\n\t" +
                 "Local: \t\thttp://localhost:" + port + path + "/jmreport/list\n\t" +
                 "----------------------------------------------------------");
-
     }
 
 }
